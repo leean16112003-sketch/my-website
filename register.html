@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="stil.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="container">
+        <h1>Kayıt Ol</h1>
+        <form id="registerForm">
+          <input type="text" id="firstName" placeholder="Ad" />
+          <input type="text" id="lastName" placeholder="Soyad" />
+          <input type="email" id="email" placeholder="E-posta" />
+          <input type="text" id="username" placeholder="Kullanıcı Adı" />
+          <input type="password" id="password" placeholder="Şifre" />
+
+          <input type="date" id="birthDate" lang="en" />
+
+          <input type="text" id="nationality" placeholder="Uyruk" />
+
+          <div class="gender">
+            <label
+              ><input type="radio" name="gender" value="Kadın" /> Kadın</label
+            >
+            <label
+              ><input type="radio" name="gender" value="Erkek" /> Erkek</label
+            >
+          </div>
+
+          <button type="submit" class="btn">Kayıt Ol</button>
+        </form>
+
+        <p class="link">
+          Hesabın var mı?
+          <a href="login.html">Giriş Yap</a>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
